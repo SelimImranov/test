@@ -1,0 +1,18 @@
+.box{
+    position: relative;
+    height: 100px;
+    width: 100px ;
+    border-radius: 7px;
+    border: 2px solid black;
+    display: inline-block;
+    
+}
+.box .image{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 7px;
+    background-size:cover;
+    background-position: center;
+    background-image: url(pexels-photo-1222271.jpeg);
+}
